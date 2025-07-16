@@ -1,6 +1,9 @@
 # Meningkatkan Retensi Pelanggan dengan Memprediksi Customer Churn 📉📱
 By JCDS2602 - Alpha Team (Abe, Alfi, and Hans)
 
+Tableau Link: https://public.tableau.com/shared/DXG5TMGCS?:display_count=n&:origin=viz_share_link
+Streamlit Link: https://finpro-telco-churn.streamlit.app/
+
 —-
 
 ## 1. Ringkasan Proyek
