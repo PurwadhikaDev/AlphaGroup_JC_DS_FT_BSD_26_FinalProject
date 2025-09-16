@@ -3,9 +3,9 @@ By JCDS2602 - Alpha Team (Abe, Alfi, and Hans)
 
 Tableau Link: https://public.tableau.com/app/profile/alfidhiya.amany.ramli/viz/TelcoCustomerChurn_17526840150450/MainDashboard
 
-![Screenshot](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_BSD_26_FinalProject/blob/main/Assets/dash1.jpg)
-![Screenshot](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_BSD_26_FinalProject/blob/main/Assets/dash2.jpg)
-![Screenshot](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_BSD_26_FinalProject/blob/main/Assets/dash3.jpg)
+![Screenshot](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_BSD_26_FinalProject/blob/main/Assets/dash1.png)
+![Screenshot](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_BSD_26_FinalProject/blob/main/Assets/dash2.png)
+![Screenshot](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_BSD_26_FinalProject/blob/main/Assets/dash3.png)
 
 
 Streamlit Link: https://finpro-telco-churn.streamlit.app/
@@ -96,6 +96,6 @@ Pendekatan ini berfokus pada **strategi proaktif**, dengan mengidentifikasi pela
 ---
 
 ## 6. Keterbatasan Model
-- Tidak semua fitur penting tersedia (contoh: interaksi dengan customer service, feedback kepuasan).  
-- Outlier dan imbalance data masih memengaruhi performa model meski sudah dilakukan SMOTE.  
-- Model belum diuji di lingkungan produksi nyata (real-time scoring + deployment).  
+- Keterbatasan Fitur. Model hanya menggunakan fitur yang tersedia dalam dataset. Faktor penting lain yang mungkin memengaruhi target (misalnya alasan churn, lokasi pelanggan, jumlah penggunaan internet, dan sebaginya) tidak terwakili.
+- Model melatih data numerik dalam range sesuai pada dataset. Apabila dikemudian hari data numerik seperti tenure dan total charges yang diinput nilainya kurang dari atau lebih dari range yang digunakan dalam pelatihan model, maka model tidak dapat memprediksi Churn secara akurat.
+- Model yang dibangun merupakan model klasifikasi biner (Churn dan Not Churn). Sehingga, tidak dapat mengukur tingkat keparahan yang lebih detil.
