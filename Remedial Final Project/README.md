@@ -48,44 +48,15 @@ Pendekatan ini berfokus pada **strategi proaktif**, dengan mengidentifikasi pela
 ---
 
 ## 4. Struktur Proyek
-📁 Remedial Final Project/
-├── .devcontainer/ # Konfigurasi container development
-│ └── devcontainer.json
-├── Assets/ # Gambar visualisasi & ilustrasi model
-│ ├── Bagging.png
-│ ├── Boosting.png
-│ ├── BorderlineSMOTE.png
-│ ├── dash1.jpg / dash2.jpg / dash3.jpg
-│ ├── Decision_Tree.png
-│ ├── KNN.png
-│ ├── lin_reg_vs_log_reg.png
-│ ├── Logistic_Regression.png
-│ ├── RF.png
-│ ├── Stacking.png
-│ ├── SVM.png
-│ └── Voting.png
-├── Data/ # Dataset asli & hasil pembersihan
-│ ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
-│ └── Telco_Churn_clean_dataset.csv
-├── Model/ # Model terlatih
-│ ├── Model_LogReg_7_Fitur_Telco_Churn.sav
-│ ├── Model_Logreg_7_fitur_Telco_Churn_joblib.pkl
-│ └── Model_Logreg_Telco_Churn_cloud.pkl
-├── Notebook/ # Notebook eksplorasi & training
-│ ├── Remedial Final Project_Notebook.ipynb
-│ ├── requirements.txt
-│ └── catboost_info/ # Log & metadata training CatBoost
-│ ├── catboost_training.json
-│ ├── learn/
-│ ├── learn_error.tsv
-│ ├── time_left.tsv
-│ ├── tmp/
-│ └── events.out.tfevents
-├── README.md # Dokumentasi proyek
-├── requirements.txt # Daftar library Python
-├── telco_churn_app.py # Aplikasi Streamlit untuk deployment
-├── convert_to_cloudpickle.py # Script konversi model ke format cloudpickle
-├── .gitattributes # Konfigurasi Git
+- **Assets/** → Gambar visualisasi & ilustrasi model (Decision Tree, RF, SVM, dll)  
+- **Data/** → Dataset asli & hasil pembersihan (Telco Churn)  
+- **Model/** → Model terlatih (.sav, .pkl, cloudpickle)  
+- **Notebook/** → Notebook eksplorasi, EDA, dan training model  
+- **telco_churn_app.py** → Aplikasi Streamlit untuk deployment prediksi churn  
+- **requirements.txt** → Daftar dependensi Python (yang di luar untuk streamlit, yang di dalam notebook untuk notebook) 
+- **convert_to_cloudpickle.py** → Script konversi model ke cloudpickle  
+- **README.md**
+
 
 ---
 
