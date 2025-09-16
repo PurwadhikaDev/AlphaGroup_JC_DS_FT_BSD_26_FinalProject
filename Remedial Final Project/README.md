@@ -10,7 +10,7 @@ Tableau Link: https://public.tableau.com/app/profile/alfidhiya.amany.ramli/viz/T
 
 Streamlit Link: https://finpro-telco-churn.streamlit.app/
 
-Ppt Link: https://www.canva.com/design/DAGumkHgBw4/D-DN8BINXSwxFNjdtRsAjA/edit?utm_content=DAGumkHgBw4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Ppt Link: https://www.canva.com/design/DAGumkHgBw4/Z1LZFXZGRnpqYdxWySep-Q/view?utm_content=DAGumkHgBw4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h87adaf948b
 
 —-
 
