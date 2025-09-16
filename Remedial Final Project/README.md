@@ -9,7 +9,7 @@ Tableau Link: https://public.tableau.com/shared/DXG5TMGCS?:display_count=n&:orig
 
 
 Streamlit Link: https://finpro-telco-churn.streamlit.app/
-(If error, please run streamlit run telco_churn_app.py on your terminal.)
+
 —-
 
 ## 1. Ringkasan Proyek
