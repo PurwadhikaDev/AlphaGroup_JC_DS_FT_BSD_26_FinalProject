@@ -1,7 +1,7 @@
 # Meningkatkan Retensi Pelanggan dengan Memprediksi Customer Churn 📉📱
 By JCDS2602 - Alpha Team (Abe, Alfi, and Hans)
 
-Tableau Link: https://public.tableau.com/shared/DXG5TMGCS?:display_count=n&:origin=viz_share_link
+Tableau Link: https://public.tableau.com/app/profile/alfidhiya.amany.ramli/viz/TelcoCustomerChurn_17526840150450/MainDashboard
 
 ![Screenshot](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_BSD_26_FinalProject/blob/main/Assets/dash1.jpg)
 ![Screenshot](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_BSD_26_FinalProject/blob/main/Assets/dash2.jpg)
